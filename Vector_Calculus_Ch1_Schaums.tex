@@ -1,0 +1,228 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\title{\textit{Hints} to Solutions and Proofs of Some Supplementary Problems of Chapter 1 : \textbf{Vectors and Scalars} of \textit{Schaum's Outlines of Vector Analysis, Second Edition}}
+\author{Deepak Thanvi}
+\date{17 March 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Vectors and Scalars}
+
+	\subsection{Question 1.34}
+	
+	The first important thing to do in mathematics is to draw figures and imagine it.\\
+	Draw a figure of ABCDEF Regular Hexagon with forces represented as vectors \textbf{AB},\textbf{AC},\textbf{AD},\textbf{AE} and \textbf{AF}.\\
+	
+	Now, observe by looking at the figure that :\\
+	
+	\textbf{AB}=\textbf{ED} \\
+	
+	\textbf{AF}=\textbf{CD} \\
+	
+	\textbf{BC}=\textbf{FE} \\
+	 
+	Let the Resultant force between \textbf{AB} and \textbf{AC} is \textbf{$R_{1}$}, \textbf{AF} and 				\textbf{AE} is \textbf{$R_{2}$}, \textbf{$R_{2}$} and \textbf{AD} is \textbf{$R_{3}$}, \textbf{$R_{3}$} 		and \textbf{$R_{1}$} is \textbf{$R_{4}$} respectively.\\
+	
+	Now,\\
+	\textbf{$R_{4}$}=\textbf{$R_{1}$}+\textbf{$R_{3}$} \\
+	
+	Using above all obervations, Simplifying \textbf{$R_{4}$} \\
+	
+	\textbf{$R_{4}$}=\textbf{AB}+\textbf{AC}+\textbf{$R_{2}$}+\textbf{AD}\\
+	
+	\textbf{$R_{4}$}=\textbf{AB}+\textbf{AC}+\textbf{AF}+\textbf{AE}+\textbf{AD} \\
+	
+	Also, \\
+	\textbf{AC}=\textbf{AB}+\textbf{BC}\\
+	
+	\textbf{AE}=\textbf{AF}+\textbf{FE}\\
+	
+    Considering all the observations and using it in previous expression of \textbf{$R_{4}$}  \\
+    
+	\textbf{$R_{4}$}=\textbf{AB}+\textbf{AC}+\textbf{AF}+\textbf{AE}+\textbf{AD} \\
+	
+	\textbf{$R_{4}$}=\textbf{AB}+\textbf{AB}+\textbf{BC}+\textbf{AF}+\textbf{AF}+\textbf{FE}+\textbf{AD}\\
+	
+	Since, \textbf{AB}+\textbf{BC}+\textbf{CD}=\textbf{AD},\\
+	and \\
+	
+	\textbf{AB}=\textbf{ED}\\
+	
+	\textbf{AF}=\textbf{CD}\\
+	
+	\textbf{BC}=\textbf{FE}\\
+	
+	\textbf{$R_{4}$}=3\textbf{AD} \\
+	
+	Hence, the resultant of the forces is 3\textbf{AD}. 
+	
+	
+	
+	\subsection{Question 1.39}	
+	
+	Given :\\
+	
+	\textbf{A}=(x+4y)\textbf{a}+(2x+y+1)\textbf{b}\\
+
+	\textbf{B}=(y-2x+2)\textbf{a}+(2x-3y-1)\textbf{b}\\
+	
+	Now, 3\textbf{A}=2\textbf{B} \\
+	
+	3\textbf{A}=2\textbf{B}\\
+	
+	3\textbf{A}-2\textbf{B}=0\\
+	
+$\Rightarrow$ (3x+12y)\textbf{a}+(6x+3y+3)\textbf{b}-(2y-4x+4)\textbf{a}+(4x-6y-2)\textbf{b}=0\\
+
+$\Rightarrow$ (7x+10y-4)\textbf{a}+(2x+9y+5)\textbf{b}=0\\
+
+    Since, \textbf{a} and \textbf{b} are \textbf{Non-Collinear},\\
+    
+    7x+10y=4,\\
+    
+    2x+9y=-5\\
+    
+    By solving above equations, we get x=2 and y=-1.
+    
+    \subsection{Question 1.43}
+    
+    It is given that \textbf{a},\textbf{b} and \textbf{c} are non-coplanar vectors.\\
+    
+    Also,\\
+    
+    \textbf{$r_{1}$} = 2\textbf{a} - 3\textbf{b}+\textbf{c} ,\\
+    
+    \textbf{$r_{2}$} = 3\textbf{a} - 5\textbf{b} + 2\textbf{c} ,\\
+    
+    \textbf{$r_{3}$} = 4\textbf{a} - 5\textbf{b} + \textbf{c} ,\\
+    
+    We need to check whether \textbf{$r_{1}$},\textbf{$r_{2}$} and \textbf{$r_{3}$} are linearly independent or linearly dependent.\\
+    
+    Let L = x\textbf{$r_{1}$} + y\textbf{$r_{2}$} + c\textbf{$r_{3}$} be a Linear Combination of \textbf{$r_{1}$},\textbf{$r_{2}$} and \textbf{$r_{3}$}, where x,y and z are any scalars.\\
+    
+    L = x\textbf{$r_{1}$} + y\textbf{$r_{2}$} + c\textbf{$r_{3}$}\\
+    
+    L = x(2a - 3b + 2c) + y(3a - 5b + 2c) + z(4a - 5b + c) \\
+    
+    L = (2x + 3y + 4z)a + (-3x - 5y - 5z)b + (x + 2y + z)c \\
+    
+    Since, \textbf{a},\textbf{b} and \textbf{c} are non-coplanar vectors, \\
+    
+    L = 0 and \\
+    
+    2x + 3y + 4z = 0\\
+    
+   -3x - 5y - 5z = 0\\
+    
+    x + 2y + z = 0\\
+    
+    By solving above equations, we get y = 2z and x = -5z.\\
+    
+    Taking z = 1, yields y = 2 and x = -5.\\
+    
+    Hence,
+    L = 0 \\
+$\Rightarrow$ x\textbf{$r_{1}$} + y\textbf{$r_{2}$} + c\textbf{$r_{3}$} = 0\\
+
+$\Rightarrow$ 5\textbf{$r_{1}$} = 2\textbf{$r_{2}$} + \textbf{$r_{3}$} \\
+
+    Therefore, \textbf{$r_{1}$},\textbf{$r_{2}$} and \textbf{$r_{3}$} are linearly dependent.
+    
+    
+    \subsection{Question 1.44}
+    
+    Part (a) \\
+    
+    It is given that if O is any point within triangle ABC and P,Q, and R are midpoints of the sides AB,BC and CA respectively.\\
+    
+    We need to prove that :\\
+    \textbf{OA}+\textbf{OB}+\textbf{OC}=\textbf{OP}+\textbf{OQ}+\textbf{OR}\\
+    
+    First of all, we need to draw a triangle ABC with sides representing vectors.\\
+    
+    By looking at the figure, we find : \\
+    
+    \textbf{AP}=\textbf{PB}\\
+    
+    \textbf{BQ}=\textbf{QC}\\
+    
+    \textbf{CR}=\textbf{RA}\\
+    
+    
+\[
+    \textbf{OA} =
+    \begin{cases}
+    		1. & \text{\textbf{OR}+\textbf{RA}}\\
+    		2. & \text{\textbf{OP}-\textbf{AP}}
+    \end{cases}
+\]
+
+\[
+    \textbf{OB} =
+    \begin{cases}
+    		3. & \text{\textbf{OP}+\textbf{PB}}\\
+    		4. & \text{\textbf{OQ}-\textbf{BQ}}
+    \end{cases}
+\]
+
+\[
+    \textbf{OC} =
+    \begin{cases}
+    		5. & \text{\textbf{OQ}+\textbf{QC}}\\
+    		6. & \text{\textbf{OR}-\textbf{CR}}
+    \end{cases}
+\]
+
+	Adding all above 6 equations, \\
+	
+	2(\textbf{OA}+\textbf{OB}+\textbf{OC})= (\textbf{OR}+\textbf{RA}+\textbf{OP}+\textbf{PB}+\textbf{OQ}+\textbf{QC}) + (\textbf{OP}-\textbf{AP}+\textbf{OQ}-\textbf{BR}+\textbf{OR}-\textbf{CR})\\
+	
+$\Rightarrow$ 	2(\textbf{OP}+\textbf{OQ}+\textbf{OR}) + (\textbf{RA}-\textbf{AP}+\textbf{PB}-\textbf{CR}+\textbf{QC}-\textbf{BR})\\
+
+$\Rightarrow$	\textbf{OA}+\textbf{OB}+\textbf{OC}=\textbf{OP}+\textbf{OQ}+\textbf{OR}\\
+
+	Hence Proved.\\
+	
+	Part (b) \\
+	
+	Yes. You can do on your own.\\
+	\textbf{Hint}: Consider Point O outside the triangle ABC and follow Part (a).
+	
+	
+	\subsection{Question 1.46}
+	
+	Consider a triangle ABC with vertices \textbf{AC},\textbf{CB} and \textbf{BC} and with mid point P of \textbf{BA} joining Q, the mid point of \textbf{CB}.\\
+	
+	We need to prove that \textbf{PQ}$\parallel$\textbf{AC} and PQ=$\frac{1}{2}$AC\\
+	
+	First draw the figure with given conditions. By looking at the figure : \\
+	
+	\textbf{BP} = \textbf{PA} = $\frac{1}{2}$\textbf{BA}\\
+	
+	\textbf{CQ} = \textbf{QB} = $\frac{1}{2}$\textbf{CB}\\
+	
+	Also, \\
+	
+	\textbf{PQ} = \textbf{QB} + \textbf{BP}\\
+	
+$\Rightarrow$ $\frac{1}{2}$\textbf{CB} + $\frac{1}{2}$\textbf{BA}\\
+
+$\Rightarrow$ $\frac{1}{2}$(\textbf{CB} + \textbf{BA})\\
+
+$\Rightarrow$ PQ = $\frac{1}{2}$AC\\
+
+$\Rightarrow$ \textbf{PQ}$\parallel$\textbf{AC} and PQ=$\frac{1}{2}$AC\\
+
+	Hence Proved.
+	
+		
+    
+
+	
+	
+
+\end{document}
